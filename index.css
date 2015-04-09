@@ -1,0 +1,321 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+#header {
+    background-image:url(img/BG_header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 408px;
+}
+.scrolling {
+    background-image:url(img/Slider_Pic1.png);
+    background-size: cover;
+    margin: 0 auto;
+    width: 960px;
+    height: 407px;
+    margin-top: -407px;
+}
+#slider {
+    background-size: cover;
+    margin: 0 auto;
+    width: 960px;
+    height: 407px;
+}
+#top {
+    background-color: black;
+    opacity: 0.8;
+    width: 960px;
+    height: 91px;
+    margin: 0 0 0 1px;
+}
+#top li {
+    display: inline;
+}
+.top-center {
+    position: absolute;
+    margin-left: 209px;
+    top: 25px;
+    color: white;
+    font-family: "Segoe Script", Times, serif;
+    font-size: 30px;
+}
+.top-left {
+    margin-left: 14px;
+    width: 126px;
+    height: 79px;
+}
+.top-right {
+    margin-top: -85px;
+    margin-left: 734px;
+    color: white;
+    font-style: italic;
+}
+.telOne {
+    font-family: "Georgia", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0px 8px 0;
+}
+.email {
+    font-family: "Georgia", sans-serif;
+    font-size: 14px;
+    margin: 0px 0px -5px 0px;
+}
+#menu-block {
+    position: relative;
+    width: 960px;
+    height: 43px;
+    margin: 0 0 0 2px;
+}
+.menu {
+    font: 16px "Tahoma";
+    font-weight: bold;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    clear: both;
+    float: left;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    width: 142px;
+    height: 26px;
+    text-align: center;
+    padding: 9px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    width: 142px;
+    height: 26px;
+    background: rgba(49, 0, 10, 0.9);
+}
+ul.submenu {
+    font: 14px "Tahoma";
+    display: none;
+    position: absolute;
+    width: 160px;
+    top: 44px;
+    left: 0;
+    background: rgba(49, 0, 10, 0.4);
+    border: 0;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 5px;
+    color: white;
+    background: rgba(141, 104, 114, 0.4);
+    border: none;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+#summery {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+#left-sum {
+    width: 185px;
+    vertical-align: top;
+    margin: 0px 4px 0px 201px;
+    display: inline-block;
+}
+.title-sum{
+    font: 16px "Tahoma";
+    color: darkred;
+    font-weight: bold;
+    margin: 4px 0px -11px -12px;
+    padding: 25px 0px 13px 25px;
+}
+.title-sum-center {
+    font: 16px "Tahoma";
+    color: darkred;
+    font-weight: bold;
+    margin: 2px -1px -9px -11px;
+    padding: 0px 12px 12px 30px;
+}
+.elem-left-sum a{
+    vertical-align: top;
+    font: 14px "Tahoma";
+    color: black;
+    text-decoration: none;
+}
+.boxes-left-sum li{
+    margin: -1px 0px 0px 2px;
+}
+.boxes-left-sum{
+    margin: 5px 0px -28px 12px;
+    padding: 0px 0px 17px 0px;
+}
+.elem-left-sum a:hover{
+    text-decoration: underline;
+}
+.elem-right-sum a{
+    vertical-align: top;
+    font: 14px "Tahoma";
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    margin-left: 0;
+}
+.elem-right-sum a:hover {
+    text-decoration: underline;
+}
+.elem-left-sum-nav {
+    display: block;
+    margin: 0px 0px 2px 7px;
+    padding: 0px 0px 0px 8px;
+    list-style: none;
+}
+#right-sum {
+    width: 170px;
+    display: inline-block;
+    position: relative;
+    margin: 20px 0px 0px 15px;
+}
+#right-sum img {
+    width:153px;
+    margin: 0px 0px 0px 6px;
+}
+#right-sum button {
+    background: rgba(105, 0, 0, 1);
+    border-radius: 8px;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    width: 164px;
+    height: 52px;
+}
+#center-sum {
+    width: 591px;
+    vertical-align: top;
+    position: relative;
+    display: inline-block;
+    margin: 12px -13px 0px -6px;
+}
+.center-text {
+    font: 14px "Tahoma";
+    margin: 12px 0px 11px 0px;
+}
+.title-center-sum {
+    display: inline-block;
+    line-height: 60px;
+    margin: 11px 0px -18px 4px;
+}
+.title-center-sum-two {
+    display: inline-block;
+    line-height: 73px;
+    margin: 34px 0px -14px 18px;
+}
+.title-center-sum img, .title-center-sum-two img {
+    float:left;
+}
+.title-center-sum h2 {
+    display: inline;
+    padding: 0px 0px 0px 41px;
+}
+.title-center-sum-two h2{
+    display: inline;
+    padding: 0px 0px 0px 50px;
+}
+.center-sum p {
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    width: 610px;
+}
+.img-catalogue {
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    position: relative;
+    padding: 4px 19px 0px 0px;
+}
+.available a{
+    font: 12px "Tahoma";
+    padding: 0px 0px 0px 12px;
+}
+.img-portfolio {
+    width: 168px;
+    height: 151px;
+    display: inline-block;
+    padding: 3px 26px 0px 18px;
+    margin: 4px 0px 0 -18px;
+}
+.title-img-portfolio {
+    font: 16px "Tahoma";
+    color: darkred;
+    font-weight: bold;
+    width: 162px;
+    margin: 2px -1px -8px -22px;
+    padding: 0px 12px 12px 30px;
+}
+#footer {
+    background-image:url(img/BG_futer.png);
+    width: 100%;
+    height: 175px;
+    margin: 21px auto;
+    position: relative;
+}
+.footer-center {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+    top: -30px;
+}
+.footer-center div{
+    width: 170px;
+    display: inline-block;
+    position: relative;
+    font: 12px "Tahoma";
+    color: white;
+}
+#title-footer-center{
+    color: white;
+    font: 12px "Tahoma";
+    font-weight: bold;
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 370px;
+}
+#footer-center-img {
+    padding-left: 25px;
+    left: -30px;
+    top: 25px;
+}
+#elem-footer-center{
+    list-style-type: none;
+    top: -25px;
+}
+#elem-footer-center li{
+    padding: 2px;
+}
+#elem-footer-center li span {
+    padding: 2px;
+}
