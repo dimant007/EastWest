@@ -31,7 +31,6 @@ body {
     opacity: 0.8;
     width: 960px;
     height: 91px;
-    margin: 0 0 0 1px;
 }
 #top li {
     display: inline;
@@ -70,7 +69,6 @@ body {
     position: relative;
     width: 960px;
     height: 43px;
-    margin: 0 0 0 2px;
 }
 .menu {
     font: 16px "Tahoma";
@@ -134,16 +132,15 @@ ul.menu > li:hover > ul.submenu {
     display: block;
 }
 #summery {
-    width: 100%;
-    height: auto;
+    width: 980px;
     position: relative;
     margin: 0 auto;
 }
 #left-sum {
-    width: 185px;
+    width: 173px;
     vertical-align: top;
-    margin: 0px 4px 0px 201px;
     display: inline-block;
+    margin: 0px 8px 0px 15px;
 }
 .title-sum{
     font: 16px "Tahoma";
@@ -193,10 +190,10 @@ ul.menu > li:hover > ul.submenu {
     list-style: none;
 }
 #right-sum {
-    width: 170px;
+    width: 173px;
     display: inline-block;
-    position: relative;
-    margin: 20px 0px 0px 15px;
+    position: absolute;
+    margin: 19px 0px 0px 0px;
 }
 #right-sum img {
     width:153px;
@@ -213,11 +210,14 @@ ul.menu > li:hover > ul.submenu {
     height: 52px;
 }
 #center-sum {
-    width: 591px;
+    width: 596px;
     vertical-align: top;
     position: relative;
     display: inline-block;
-    margin: 12px -13px 0px -6px;
+    margin: 14px 0 0 0;
+}
+#center-sum p {
+    margin: 16px 0px -5px 0px;
 }
 .center-text {
     font: 14px "Tahoma";
