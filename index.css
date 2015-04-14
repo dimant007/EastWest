@@ -9,7 +9,6 @@ body {
 #header {
     background-image:url(img/BG_header.png);
     background-size: cover;
-    background-repeat: no-repeat;
     height: 408px;
 }
 .scrolling {
@@ -21,7 +20,6 @@ body {
     margin-top: -407px;
 }
 #slider {
-    background-size: cover;
     margin: 0 auto;
     width: 960px;
     height: 407px;
@@ -29,7 +27,6 @@ body {
 #top {
     background-color: black;
     opacity: 0.8;
-    width: 960px;
     height: 91px;
 }
 #top li {
@@ -44,19 +41,16 @@ body {
     font-size: 30px;
 }
 .top-left {
-    margin-left: 14px;
-    width: 126px;
-    height: 79px;
+    margin-left: 13px;
 }
 .top-right {
-    margin-top: -85px;
-    margin-left: 734px;
+    margin-top: -90px;
+    margin-left: 732px;
     color: white;
     font-style: italic;
 }
 .telOne {
     font-family: "Georgia", sans-serif;
-    font-size: 16px;
     font-weight: bold;
     margin: 15px 0px 8px 0;
 }
@@ -73,6 +67,8 @@ body {
 .menu {
     font: 16px "Tahoma";
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 ul {
     display: block;
@@ -132,22 +128,21 @@ ul.menu > li:hover > ul.submenu {
     display: block;
 }
 #summery {
-    width: 980px;
+    width: 1010px;
     position: relative;
     margin: 0 auto;
+    padding: 0px 0px 0px 60px;
 }
-#left-sum {
-    width: 173px;
+.sidebar {
+    width: 175px;
     vertical-align: top;
     display: inline-block;
-    margin: 0px 8px 0px 15px;
 }
 .title-sum{
     font: 16px "Tahoma";
     color: darkred;
     font-weight: bold;
-    margin: 4px 0px -11px -12px;
-    padding: 25px 0px 13px 25px;
+    padding: 16px 0px 0px 0px;
 }
 .title-sum-center {
     font: 16px "Tahoma";
@@ -165,10 +160,6 @@ ul.menu > li:hover > ul.submenu {
 .boxes-left-sum li{
     margin: -1px 0px 0px 2px;
 }
-.boxes-left-sum{
-    margin: 5px 0px -28px 12px;
-    padding: 0px 0px 17px 0px;
-}
 .elem-left-sum a:hover{
     text-decoration: underline;
 }
@@ -185,21 +176,13 @@ ul.menu > li:hover > ul.submenu {
 }
 .elem-left-sum-nav {
     display: block;
-    margin: 0px 0px 2px 7px;
     padding: 0px 0px 0px 8px;
     list-style: none;
 }
-#right-sum {
-    width: 173px;
-    display: inline-block;
-    position: absolute;
-    margin: 19px 0px 0px 0px;
-}
-#right-sum img {
+.sidebar img {
     width:153px;
-    margin: 0px 0px 0px 6px;
 }
-#right-sum button {
+.sidebar button {
     background: rgba(105, 0, 0, 1);
     border-radius: 8px;
     font-family: Tahoma, sans-serif;
@@ -210,39 +193,39 @@ ul.menu > li:hover > ul.submenu {
     height: 52px;
 }
 #center-sum {
-    width: 596px;
+    width: 600px;
     vertical-align: top;
     position: relative;
     display: inline-block;
-    margin: 14px 0 0 0;
+    padding: 6px 0px 0px 0px;
 }
+
 #center-sum p {
-    margin: 16px 0px -5px 0px;
 }
 .center-text {
     font: 14px "Tahoma";
-    margin: 12px 0px 11px 0px;
 }
 .title-center-sum {
     display: inline-block;
     line-height: 60px;
-    margin: 11px 0px -18px 4px;
+    padding: 24px 0px 0px 0px;
 }
 .title-center-sum-two {
     display: inline-block;
     line-height: 73px;
-    margin: 34px 0px -14px 18px;
+    padding: 9px 0px 0px 5px;
 }
 .title-center-sum img, .title-center-sum-two img {
     float:left;
+    padding: 0 0 0 10px;
 }
 .title-center-sum h2 {
     display: inline;
-    padding: 0px 0px 0px 41px;
+    padding: 0px 0px 0px 22px;
 }
 .title-center-sum-two h2{
     display: inline;
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 40px;
 }
 .center-sum p {
     font-family: Arial, sans-serif;
@@ -254,7 +237,7 @@ ul.menu > li:hover > ul.submenu {
     height: 125px;
     display: inline-block;
     position: relative;
-    padding: 4px 19px 0px 0px;
+    padding: 0px 20px 0px 0px;
 }
 .available a{
     font: 12px "Tahoma";
@@ -277,23 +260,21 @@ ul.menu > li:hover > ul.submenu {
 }
 #footer {
     background-image:url(img/BG_futer.png);
+    clear: both;
     width: 100%;
     height: 175px;
-    margin: 21px auto;
+    margin-top: 40px;
     position: relative;
 }
 .footer-center {
-    width: 1000px;
-    position: relative;
+    width: 980px;
+    height: 175px;
     margin: 0 auto;
-    top: -30px;
+    position: relative;
 }
 .footer-center div{
-    width: 170px;
     display: inline-block;
-    position: relative;
-    font: 12px "Tahoma";
-    color: white;
+    color: #fff;
 }
 #title-footer-center{
     color: white;
@@ -304,18 +285,17 @@ ul.menu > li:hover > ul.submenu {
     top: 60px;
     left: 370px;
 }
-#footer-center-img {
-    padding-left: 25px;
-    left: -30px;
-    top: 25px;
+#footer-sum {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 100px;
+    font-size: 12px;
 }
-#elem-footer-center{
-    list-style-type: none;
-    top: -25px;
+.footer-center h3 {
+    color: #ffffff;
+    padding: 12px 0 0 373px;
 }
-#elem-footer-center li{
-    padding: 2px;
-}
-#elem-footer-center li span {
-    padding: 2px;
+#footer-sum div {
+    padding: 0px 0px 3px 10px;
 }
