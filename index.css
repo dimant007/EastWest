@@ -52,12 +52,12 @@ body {
 .telOne {
     font-family: "Georgia", sans-serif;
     font-weight: bold;
-    margin: 15px 0px 8px 0;
+    margin: 15px 0 8px 0;
 }
 .email {
     font-family: "Georgia", sans-serif;
     font-size: 14px;
-    margin: 0px 0px -5px 0px;
+    margin: 0 0 -5px 0;
 }
 #menu-block {
     position: relative;
@@ -131,7 +131,7 @@ ul.menu > li:hover > ul.submenu {
     width: 1010px;
     position: relative;
     margin: 0 auto;
-    padding: 0px 0px 0px 60px;
+    padding: 0 0 0 60px;
 }
 .sidebar {
     width: 175px;
@@ -142,14 +142,14 @@ ul.menu > li:hover > ul.submenu {
     font: 16px "Tahoma";
     color: darkred;
     font-weight: bold;
-    padding: 16px 0px 0px 2px;
+    padding: 17px 0 0 2px;
 }
 .title-sum-center {
     font: 16px "Tahoma";
     color: darkred;
     font-weight: bold;
     margin: 2px -1px -9px -11px;
-    padding: 0px 12px 12px 30px;
+    padding: 0 12px 12px 30px;
 }
 .elem-left-sum a{
     vertical-align: top;
@@ -158,18 +158,28 @@ ul.menu > li:hover > ul.submenu {
     text-decoration: none;
 }
 .boxes-left-sum {
-    margin: 6px 0px 0px 2px;
+    margin: 6px 0 0 2px;
+}
+.boxes-left-sum li {
+    margin: 0 0 -1px 0;
 }
 .elem-left-sum a:hover{
     text-decoration: underline;
 }
+.title-sum-right{
+    font: 16px "Tahoma";
+    color: darkred;
+    font-weight: bold;
+    margin: 15px 0 18px 4px;
+}
+.title-sum-right ul {
+    margin-top: 16px;
+}
 .elem-right-sum a{
     vertical-align: top;
     font: 14px "Tahoma";
-    padding: 0;
     color: black;
     text-decoration: none;
-    margin-left: 0;
 }
 .elem-right-sum a:hover {
     text-decoration: underline;
@@ -180,7 +190,7 @@ ul.menu > li:hover > ul.submenu {
     list-style: none;
 }
 #left-sum-nav {
-    margin: 14px 0px 0px 13px;
+    margin: 14px 0 0 13px;
 }
 .sidebar img {
     width:153px;
@@ -200,12 +210,12 @@ ul.menu > li:hover > ul.submenu {
     vertical-align: top;
     position: relative;
     display: inline-block;
-    margin: 17px -10px 0px 9px;
+    margin: 17px -10px 0 9px;
 }
 .center-text {
     font: 14px "Tahoma";
     width: 590px;
-    margin: 0 0 23px 0px;
+    margin: 0 0 23px 0;
 }
 .title-center-sum {
     display: inline-block;
@@ -214,7 +224,7 @@ ul.menu > li:hover > ul.submenu {
 .title-center-sum-two {
     display: inline-block;
     line-height: 69px;
-    padding: 0px 0px 0px 7px;
+    padding: 0 0 0 7px;
 }
 .title-center-sum img, .title-center-sum-two img {
     float:left;
@@ -222,52 +232,55 @@ ul.menu > li:hover > ul.submenu {
 }
 .title-center-sum h2 {
     display: inline;
-    padding: 0px 0px 0px 22px;
+    padding: 0 0 0 22px;
 }
 .title-center-sum-two h2{
     display: inline;
-    padding: 0px 0px 0px 40px;
+    padding: 0 0 0 40px;
 }
 .center-sum p {
     font-family: Arial, sans-serif;
     font-weight: 100;
     width: 610px;
 }
+#text-img-block {
+    margin: 0 0 -14px 0;
+}
 .img-catalogue {
     width: 125px;
     height: 125px;
     display: inline-block;
     position: relative;
-    padding: 0px 20px 0px 0px;
+    padding: 0 20px 0 0;
 }
 .img-cat-block {
-    margin: -15px 0px 35px 0px;
+    margin: -15px 0 35px 0;
 }
 .available a{
     font: 12px "Tahoma";
-    padding: 0px 0px 0px 12px;
+    padding: 0 0 0 12px;
 }
 .img-portfolio {
     width: 168px;
     height: 133px;
     display: inline-block;
-    margin: 7px 27px 0px 0px;
+    margin: 12px 27px 0 0;
 }
 .title-img-portfolio {
     font: 16px "Tahoma";
     color: darkred;
     font-weight: bold;
     width: 162px;
-    margin: 9px 0px 0px 8px;
+    margin: 1px 0 0 8px;
 }
 .title-of-center {
     font: 16px "Tahoma";
     color: darkred;
     font-weight: bold;
-    margin: 0px 0px 17px 0;
+    margin: 0 0 17px 0;
 }
 .right-block {
-    margin: 36px 0px 15px 6px
+    margin: 36px 0 15px 6px
 }
 #footer {
     background-image:url(img/BG_futer.png);
@@ -289,7 +302,7 @@ ul.menu > li:hover > ul.submenu {
 }
 #footer-left-img {
     float: left;
-    width: 237px;
+    width: 238px;
 }
 .footer-block {
     display: inline-block;
@@ -307,8 +320,8 @@ ul.menu > li:hover > ul.submenu {
     float: left;
     font: 12px "Tahoma", sans-serif;
     vertical-align: top;
-    margin: 0px 0 0 25px;
+    margin: 0 0 0 25px;
 }
 #footer-right-img img {
-    margin: 0px 3px 21px 0px
+    margin: 0 3px 21px 0;
 }
