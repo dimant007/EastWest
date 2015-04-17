@@ -7,12 +7,6 @@ h1 {
     text-align: center;
     margin: 20px;
 }
-.b-slideshow {
-    height: 480px;
-    width: 640px;
-    margin: 0 auto;
-    position: relative;
-}
 .b-slideshow-area {
     width: 958px;
     height: 407px;

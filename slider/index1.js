@@ -2,7 +2,7 @@
  * Created by ditry_000 on 16.04.2015.
  */
 (function() {
-    $.fn.slider = function(slider) {
+    $.fn.slider = function() {
 
         var item = $('.b-slideshow-item');
         var carouselItem = $('.b-slider-nav li');
@@ -75,6 +75,5 @@
             moveLeft();
         });
     };
-
 
 })(jQuery);
