@@ -223,7 +223,8 @@ ul.menu > li:hover > ul.submenu {
     margin: 30px -10px 0 9px;
 }
 .center-text {
-    font: 14px "Tahoma";
+    font-family: "Tahoma", sans-serif;
+    font-size: 14px;
     width: 590px;
     margin: 0 0 23px 0;
 }
@@ -267,7 +268,8 @@ ul.menu > li:hover > ul.submenu {
     margin: -15px 0 35px 0;
 }
 .available a{
-    font: 12px "Tahoma";
+    font-family: "Tahoma", sans-serif;
+    font-size: 12px;
     padding: 0 0 0 12px;
 }
 .img-portfolio {
@@ -321,14 +323,16 @@ ul.menu > li:hover > ul.submenu {
 }
 .footer-block h3 {
     color: white;
-    font: 14px "Tahoma", sans-serif;
+    font-family: "Tahoma", sans-serif;
+    font-size: 14px;
     font-weight: bold;
     margin: 15px 0 12px 300px;
 
     }
 .footer-block div {
     float: left;
-    font: 12px "Tahoma", sans-serif;
+    font-family: "Tahoma", sans-serif;
+    font-size: 12px;
     vertical-align: top;
     margin: 0 0 0 25px;
 }

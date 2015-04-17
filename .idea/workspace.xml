@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="675c9627-389e-4877-96ec-723fd503e426" name="Default" comment="added slider elements">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kiev1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kiev2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kiev3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kiev4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kiev5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/left.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/right.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbkiev1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbkiev2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbkiev3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbkiev4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/thumbkiev5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slider/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slider/index1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slider/jquery-latest.js" />
+    <list default="true" id="675c9627-389e-4877-96ec-723fd503e426" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slider/index1.js" afterPath="$PROJECT_DIR$/slider/index1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EastWest.iws" />
@@ -48,28 +34,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="5491">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state vertical-scroll-proportion="11.115385" vertical-offset="408" max-vertical-offset="5491">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index1.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index1.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/slider/index1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="457" max-vertical-offset="1394">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-latest.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/slider/jquery-latest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33238637" vertical-offset="136223" max-vertical-offset="175134">
-              <caret line="8032" column="25" selection-start-line="8032" selection-start-column="25" selection-end-line="8032" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.21326165" vertical-offset="0" max-vertical-offset="1445">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -88,8 +64,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3653" max-vertical-offset="5814">
-              <caret line="222" column="24" selection-start-line="222" selection-start-column="24" selection-end-line="222" selection-end-column="24" />
+            <state vertical-scroll-proportion="-97.37931" vertical-offset="1035" max-vertical-offset="5882">
+              <caret line="227" column="17" selection-start-line="227" selection-start-column="17" selection-end-line="227" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -105,8 +81,9 @@
       <list>
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/slider/index.css" />
-        <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.css" />
+        <option value="$PROJECT_DIR$/slider/index1.js" />
       </list>
     </option>
   </component>
@@ -206,7 +183,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled7" />
   </component>
-  <component name="RunManager" selected="Node.js.index1.js">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EastWest/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -218,7 +195,9 @@
       <method />
     </configuration>
     <configuration default="false" name="index1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="index1.js" working-dir="$PROJECT_DIR$/slider">
+      <RunnerSettings RunnerId="Basic" />
       <RunnerSettings RunnerId="debuggableProgram" />
+      <ConfigurationWrapper RunnerId="Basic" />
       <ConfigurationWrapper RunnerId="debuggableProgram" />
       <method />
     </configuration>
@@ -267,8 +246,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.index1.js" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.index1.js" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
       </list>
     </recent_temporary>
@@ -326,7 +305,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429273434842</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added slider elements">
+      <created>1429274611927</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1429274611927</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -353,7 +338,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -361,7 +346,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16741072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3668942" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -629,16 +614,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3653" max-vertical-offset="5814">
-          <caret line="222" column="24" selection-start-line="222" selection-start-column="24" selection-end-line="222" selection-end-column="24" />
+        <state vertical-scroll-proportion="-97.37931" vertical-offset="1035" max-vertical-offset="5882">
+          <caret line="227" column="17" selection-start-line="227" selection-start-column="17" selection-end-line="227" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="5491">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state vertical-scroll-proportion="11.115385" vertical-offset="408" max-vertical-offset="5491">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -651,18 +636,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slider/index1.js">
+    <entry file="file://$PROJECT_DIR$/slider/jquery-latest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="457" max-vertical-offset="1394">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.2146789" vertical-offset="136223" max-vertical-offset="175134">
+          <caret line="8032" column="25" selection-start-line="8032" selection-start-column="25" selection-end-line="8032" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slider/jquery-latest.js">
+    <entry file="file://$PROJECT_DIR$/slider/index1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33238637" vertical-offset="136223" max-vertical-offset="175134">
-          <caret line="8032" column="25" selection-start-line="8032" selection-start-column="25" selection-end-line="8032" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.21326165" vertical-offset="0" max-vertical-offset="1445">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
       </provider>
