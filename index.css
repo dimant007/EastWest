@@ -11,6 +11,14 @@ body {
     background-size: cover;
     height: 408px;
 }
+
+.b-slideshow1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*
 .scrolling {
     background-image:url(img/Slider_Pic1.png);
     background-size: cover;
@@ -19,10 +27,12 @@ body {
     height: 407px;
     margin-top: -407px;
 }
+*/
 #slider {
     margin: 0 auto;
     width: 960px;
     height: 407px;
+    position: relative;
 }
 #top {
     background-color: black;
@@ -210,7 +220,7 @@ ul.menu > li:hover > ul.submenu {
     vertical-align: top;
     position: relative;
     display: inline-block;
-    margin: 17px -10px 0 9px;
+    margin: 30px -10px 0 9px;
 }
 .center-text {
     font: 14px "Tahoma";
@@ -277,7 +287,7 @@ ul.menu > li:hover > ul.submenu {
     font: 16px "Tahoma";
     color: darkred;
     font-weight: bold;
-    margin: 0 0 17px 0;
+    margin: 21px 0 17px 0;
 }
 .right-block {
     margin: 36px 0 15px 6px
