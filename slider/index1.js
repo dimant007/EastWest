@@ -5,13 +5,13 @@
     $.fn.slider = function(slider) {
 
         var item = $('.b-slideshow-item');
-        var navli = $('.b-slider-nav li');
+        var carouselItem = $('.b-slider-nav li');
         var slidesNumber = $(item).size();
         var slideWidth = $(item).eq(1).width();
-        $(navli).eq(0).addClass('active');
+        $(carouselItem).eq(0).addClass('active');
         var activeSlide = 1;
 
-        $(navli).click(function () {
+        $(carouselItem).click(function () {
             var clickedSlide;
             $('.b-slider-nav li').removeClass('active');
             $(this).addClass('active');
@@ -29,14 +29,14 @@
                     left: '-=0' + slideWidth + 'px'
                 }, 800);
                 activeSlide++;
-                $(navli).removeClass('active');
-                $(navli).eq(activeSlide - 1).addClass('active');
+                $(carouselItem).removeClass('active');
+                $(carouselItem).eq(activeSlide - 1).addClass('active');
             } else {
                 $('.b-slideshow-list').animate({
                     left: '0px'
                 }, 800);
-                $(navli).removeClass('active');
-                $(navli).eq(0).addClass('active');
+                $(carouselItem).removeClass('active');
+                $(carouselItem).eq(0).addClass('active');
                 activeSlide = $('.b-slider-nav li.active').index() + 1;
             }
         }
@@ -46,14 +46,14 @@
                     left: '+=0' + slideWidth + 'px'
                 }, 800);
                 activeSlide--;
-                $(navli).removeClass('active');
-                $(navli).eq(activeSlide - 1).addClass('active');
+                $(carouselItem).removeClass('active');
+                $(carouselItem).eq(activeSlide - 1).addClass('active');
             } else {
                 $('.b-slideshow-list').animate({
                     left: -slideWidth * (slidesNumber - 1) + 'px'
                 }, 800);
-                $(navli).removeClass('active');
-                $(navli).eq(-1).addClass('active');
+                $(carouselItem).removeClass('active');
+                $(carouselItem).eq(-1).addClass('active');
                 activeSlide = $('.b-slider-nav li.active').index() + 1;
             }
         }

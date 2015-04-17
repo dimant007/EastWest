@@ -28,8 +28,12 @@ h1 {
 .b-slideshow-item {
     display: inline-block;
     zoom: 1;
-    width: 640px;
-    height: 480px;
+    width: 958px;
+    height: 407px;
+}
+.b-slideshow-item img{
+    width: 958px;
+    height: 607px;
 }
 .b-slider-nav {
     position: absolute;
