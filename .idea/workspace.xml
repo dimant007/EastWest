@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="675c9627-389e-4877-96ec-723fd503e426" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slider/index.css" afterPath="$PROJECT_DIR$/slider/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slider/index1.js" afterPath="$PROJECT_DIR$/slider/index1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EastWest.iws" />
@@ -32,11 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32894737" vertical-offset="709" max-vertical-offset="5474">
-              <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+            <state vertical-scroll-proportion="-34.653847" vertical-offset="0" max-vertical-offset="5406">
+              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6540643" vertical-offset="130" max-vertical-offset="5865">
+              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -45,8 +55,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slider/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1428">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1428">
+              <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -55,18 +65,8 @@
       <file leaf-file-name="index1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slider/index1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="853" max-vertical-offset="1428">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-97.37931" vertical-offset="1035" max-vertical-offset="5882">
-              <caret line="227" column="17" selection-start-line="227" selection-start-column="17" selection-end-line="227" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -81,10 +81,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/index.css" />
-        <option value="$PROJECT_DIR$/slider/index.css" />
         <option value="$PROJECT_DIR$/slider/index1.js" />
+        <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/slider/index.css" />
       </list>
     </option>
   </component>
@@ -324,7 +324,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429278036791</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="'div' tag in right position">
+      <created>1429278535285</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1429278535285</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -394,7 +400,8 @@
     <MESSAGE value="added slider" />
     <MESSAGE value="added slider elements" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="'div' tag in right position" />
+    <option name="LAST_COMMIT_MESSAGE" value="'div' tag in right position" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -625,14 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-97.37931" vertical-offset="1035" max-vertical-offset="5882">
-          <caret line="227" column="17" selection-start-line="227" selection-start-column="17" selection-end-line="227" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slider/jquery-latest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2146789" vertical-offset="136223" max-vertical-offset="175134">
@@ -641,26 +640,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slider/index1.js">
+    <entry file="file://$PROJECT_DIR$/slider/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="853" max-vertical-offset="1428">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1428">
+          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slider/index.css">
+    <entry file="file://$PROJECT_DIR$/slider/index1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1428">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32894737" vertical-offset="709" max-vertical-offset="5474">
-          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+        <state vertical-scroll-proportion="-34.653847" vertical-offset="0" max-vertical-offset="5406">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6540643" vertical-offset="130" max-vertical-offset="5865">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
           <folding />
         </state>
       </provider>

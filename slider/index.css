@@ -59,16 +59,16 @@ h1 {
     width: 47px;
     height: 49px;
     position: absolute;
-    left: -54px;
+    left: 4px;
     top: 220px;
     cursor: pointer;
-    opacity:0.6;
+    opacity: 0.6;
 }
 .b-slideshow-right img{
     width: 46px;
     height: 47px;
     position: absolute;
-    right: -54px;
+    right: 4px;
     top: 220px;
     cursor: pointer;
     opacity:0.6;
