@@ -77,3 +77,8 @@ h1 {
     color: lightgrey;
     background: lightgrey;
 }
+#b-slideshow1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

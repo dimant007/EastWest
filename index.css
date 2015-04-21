@@ -11,11 +11,6 @@ body {
     background-size: cover;
     height: 408px;
 }
-.b-slideshow1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
 /*
 .scrolling {
@@ -27,7 +22,7 @@ body {
     margin-top: -407px;
 }
 */
-#slider {
+#slider-block {
     margin: 0 auto;
     width: 960px;
     height: 407px;
